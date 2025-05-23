@@ -1,12 +1,11 @@
 package sample;
 
-public class Cast {
-    public static void main(String[] args) {
-        var a = 3;
-        var b = 2;
+public class Test {
 
-        System.out.println( a / b );
-        System.out.println( (double)a / b );
-        System.out.println( (double)(a / b) );
+    public static void main(String[] args) {
+        System.out.println("Kiramex");
+        System.out.println("Java");
+        System.out.println("学習を始めましょう!");
     }
+
 }
