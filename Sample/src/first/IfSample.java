@@ -3,7 +3,7 @@ package first;
 public class IfSample {
 
     public static void main(String[] args) {
-        int score = 60; // 成績
+        int score = 100; // 成績
 
         if (score == 100) {
             System.out.println("満点です！");
