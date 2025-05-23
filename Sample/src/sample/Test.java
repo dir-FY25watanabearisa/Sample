@@ -1,14 +1,12 @@
 package sample;
 
-public class Variable {
-
+public class Cast {
     public static void main(String[] args) {
-        var number1 = 1;
-        System.out.println(number1);
+        var a = 3;
+        var b = 2;
 
-        String str1;
-        str1 = "abc";
-        System.out.println(str1);
+        System.out.println( a / b );
+        System.out.println( (double)a / b );
+        System.out.println( (double)(a / b) );
     }
-
 }
